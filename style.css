@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+
+margin-top: -1%;
+    background-color: lightgray;
+    
+    
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+   
+    height: 39px;   
+      background-color: black;
+    
+    
+}
+
+.fb{
+    margin-top: 3px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 45px;
+    height: 38px;
+    font-size: 20px;
+   
+}
+.insta{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 45px;
+    height: 38px;
+    font-size: 20px;
+}
+.snap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      width: 45px;
+     height: 38px;
+     font-size: 20px;
+}
+.tweet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      width: 45px;
+     height: 38px;
+     font-size: 20px;
+}
+.linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 38px;
+    font-size: 18px;
+    padding-right: 80%;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 38px;
+    font-size: 20px;
+}
+
+/* panel */
+
+.nav-panel{
+    height:222px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+b{
+   
+    padding-bottom: 10px;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.panel{
+    display: block;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+}
+span{
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+h6 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* images */
+
+.image-box1{
+    height: 800px;
+    display: flex;
+    background-image: url(vivekchavan.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+.info1{
+    padding-left: 20px;
+    margin-top: 30%;
+    height: 265px;
+    width: 493px;
+    /* background-color: aqua; */
+    font-size: 36px;
+   
+}
+.info2{
+    
+    color: white;
+    font-size: 54px;
+    font-weight: bolder;
+}
+.subscribe{
+    text-align: center;
+    font-size: 16px;
+   background-color: white;
+}
+
+/* box2 */
+.box2{
+    
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 20px;
+    width: 775px;
+    height:1500px;
+    background-color: white;
+    margin-left: 20px;
+}
+.img2{
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 700px;
+    height: 700px;
+    background-color: aliceblue;
+    background-image: url(vcbody.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* lines fitness */
+.line1{
+    line-height: 90px;
+    
+    
+
+}
+.line2{
+    font-size: 10px;
+    line-height: 1px;
+}
+.line3{
+    margin-right: 19px;
+    background-color: rgba(4, 4, 4, 0.127);
+}
+ul{
+    line-height: 33px;
+    margin-left: 25px;
+    text-align: left;
+    font-size: 20px;
+}
+.feedback{
+  
+   
+    height: 69px;
+}
+.like{
+    border: 2PX solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14PX;
+    width: 79px;
+    height: 40px;
+   
+  
+}
+button{
+    text-decoration: none;
+    border: none;
+    background-color: white;
+}
+/* side container */
+.bigcontainer{
+    display: flex;
+    justify-content: space-evenly;
+  
+    /* background-color: blue; */
+    /* height: 4000px; */
+}
+.side-container{
+    margin-top: 20px;
+    width: 605px;
+    height: 1000px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+   
+}
+.sidebox1{
+    width: 80%;
+    height: 50%;
+   
+    background-color: antiquewhite;
+    background-image:url(vivek.jpg);
+    background-size: cover;
+    background-position: center;
+
+    
+}
+.personalinfo{
+    margin-top: 500px;
+    background-color: rgb(3, 3, 3);
+    width: 80%px;
+    height: 30%;
+    color: white;
+    padding-left: 10px;
+    
+}
+.personalinfo p{
+    margin-top: 10px;
+}
+
+.sidebox2{
+    margin-top: 40px;
+    width: 100%;
+    height: 30%;
+    background-color: white;
+}
+
+.follow{
+    font-size: 8px;
+    text-align: center;
+    color:white;
+    background-color: black;
+    height: 30%;
+}
+.follow h2{
+    padding-top: 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.id2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    text-align: center;
+}
+/* footer */
+.footer-panel{
+    color: white;
+    height: 179px;
+    background-color: #616161;
+    text-decoration:none;
+}
+.top{
+    color: white;
+    border: none;
+    width: 150px;
+    height: 49px;
+    text-decoration:none;
+
+}
+.top p{
+    color: white;
+    text-decoration:none;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+/* mediascreen */
+
+@media screen and (max-width:400px){
+    html{
+        font-size: 62.5%;
+    }
+    body{
+        margin-top:-10px;
+    }
+    .nav-bar{
+       height: 2rem;   
+     }
+
+     .fb{
+        margin-bottom: 0.1rem;
+     
+       width: 2rem;
+        height: 2rem;
+        font-size: 1.5rem;
+       
+    }
+   
+    .insta{
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.5rem;
+    }
+    .snap{
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.5rem;
+    }
+    .tweet{
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.5rem;
+    }
+    .linkedin{
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.5rem;
+        padding-right: 50%;
+    }
+    .search{
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.5rem;
+    }
+
+    /* panel */
+
+    .nav-panel{
+        height:12rem;
+        background-color:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    b{
+         padding-bottom: 10px;
+        font-size: 4rem;
+    }
+    .panel{
+       
+    }
+    span{
+        display: inline-block;
+        background-color: black;
+        color: white;
+    }
+    h6 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    /* images */
+    .image-box1{
+        height: 25rem;
+       
+    }
+    /* info */
+    .info1{
+       
+        height: 6.5rem;
+        width: 9.3rem;
+      
+       
+    }
+    .info2{
+        font-size: 1rem;
+       
+    }
+    .subscribe{
+        font-size: 0.6rem;
+    }
+    /* box2 */
+.box2{
+    /* margin-top: 20px; */
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 20px;
+    width: 90%;
+    height:60%;
+    background-color: white;
+    margin-left: 20px;
+}
+.img2{
+    margin-top: 20px;
+    margin-left: 5%;
+    width:90% ;
+    height:30rem;
+    background-color: aliceblue;
+    background-image: url(vcbody.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+    .line1{
+        margin-top: 20px;
+    line-height: 2rem;
+    
+    
+
+}
+.line2{
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.bigcontainer{
+    display: block;
+    justify-content: space-evenly;
+}
+.side-container{
+    margin-top: 20px;
+    width: 100%;
+    height: 1000px;
+    /* background-color: aqua; */
+    /* display: flex;
+    justify-content: center; */
+   
+}
+.sidebox1{
+    margin-top: 10px;
+    width: 90%;
+    height: 40%;
+   
+    background-color: antiquewhite;
+    background-image:url(vivek.jpg);
+    background-size: cover;
+    background-position: center;
+
+    
+}
+.personalinfo{
+    margin-top: 112%;
+    /* background-color: rgb(246, 246, 34); */
+    width: 80%px;
+    height: 20%;
+   
+    
+}
+/* footer */
+.footer-panel{
+    text-align: center;
+    color: white;
+    height: 10rem;
+    background-color: #616161;
+    text-decoration:none;
+}
+.top{
+    color: white;
+    border: none;
+    width: 15rem;
+    height: 49px;
+    text-decoration:none;
+
+}
+.top p{
+    color: white;
+    text-decoration:none;
+    font-size: 10px;
+}
+
+
+
+
+
+    
+}
